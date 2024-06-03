@@ -1,6 +1,3 @@
-Here's a template for your README file based on the information you provided:
-
----
 
 # College Search Web Interface
 
