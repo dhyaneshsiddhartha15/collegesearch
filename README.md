@@ -1,31 +1,51 @@
-# React & Tailwind CSS Starter Pack
+Here's a template for your README file based on the information you provided:
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+---
 
-## Usage
+# College Search Web Interface
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+## Description
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
+This project is a web interface that allows users to search and select a college from a dropdown menu. After selecting a college, the interface displays the college's logo along with its name on a dashboard.
 
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
+## Folder Structure
 
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
+```
+- src
+  - components
+    - App.js
+    - Header.js
+    - CollegeSelector.js
+    - Dashboard.jsx
+  - App.css
+  - index.js
+```
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+## Tech Stack
 
-## Contributing
+- React.js
+- Axios (for API requests)
+- Tailwind CSS (for styling)
 
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
+## How to Start
+
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Install dependencies using `npm install`.
+4. Start the development server using `npm start`.
+
+## Available Scripts
+
+- `npm start`: Starts the development server.
+- `npm run build`: Builds the app for production.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+##Video Demonstration 
+
+
+https://github.com/dhyaneshsiddhartha15/collegesearch/assets/157828240/6b4cca66-f142-4013-8405-f9d910ec6df5
+
